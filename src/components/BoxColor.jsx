@@ -21,7 +21,7 @@ const BoxColor =({r, g, b}) => {
 
 
       return (
-        <div className="BoxColor">
+        <div>
            <div style={divStyle}>{ `rgb(${r},${g},${b})} # ${rgb(r,g,b)}`}</div>
         </div>
       );

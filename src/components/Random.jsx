@@ -7,7 +7,7 @@ function Random({min,max}) {
     const random = Math.floor(Math.random() * ( max - min)+min)
 
   return (
-    <div className="Random">
+    <div>
 
       <p>Random value between { min } and { max } = { random } </p>
 
