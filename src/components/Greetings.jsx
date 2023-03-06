@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Greetings = ({ lang, children }) => {
+const Greetings = ({ lang, children }) => {
   let greeting;
   if (lang === 'de') {
     greeting = 'Hallo';
